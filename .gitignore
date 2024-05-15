@@ -1,1 +1,3 @@
 /.venv/Lib/site-packages/_virtualenv.pth
+.venv/
+.idea/
