@@ -9,6 +9,17 @@ set up an OPENAI API KEY
 
 
 OpenAI has different model offerings and price points. [models and price points](https://platform.openai.com/docs/models)
+### Pip 
+
+
+```python
+pip install python_dotenv`
+```
+
+```python
+pip install --upgrade openai
+```
+
 ### Python Code
 
 ```python
