@@ -11,7 +11,7 @@ OpenAI has different model offerings and price points. [models overview](https:/
 
 ## Find airport ICAO codes within 200km of Dublin.
 
-### OpenAI Output 
+### OpenAI Generated Output 
 
 
 Dublin Airport (IATA: DUB, ICAO: EIDW) is located in Ireland, near the city of Dublin. Within a radius of 200 kilometers, there are several other airfields with ICAO codes. Here are some notable ones:
