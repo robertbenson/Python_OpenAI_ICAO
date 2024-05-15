@@ -1,4 +1,9 @@
 # OpenAI demo using Python
+## Task: 
+### "Find airport ICAO codes within 200km of Dublin".
+
+This can be tailored to just about anything.
+
 ## Create an OpenAI account
 
 [OpenAI Quickstart](https://platform.openai.com/docs/quickstart)
@@ -42,7 +47,7 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message.content)
 
 ```
-## Find airport ICAO codes within 200km of Dublin.
+
 
 ### OpenAI Generated Output 
 
