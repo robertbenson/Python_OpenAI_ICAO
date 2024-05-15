@@ -1,4 +1,4 @@
-# OpenAI demo 
+# OpenAI demo using Python
 ## Create an OpenAI account
 
 [OpenAI Quickstart](https://platform.openai.com/docs/quickstart)
@@ -13,7 +13,7 @@ OpenAI has different model offerings and price points. [models and price points]
 
 
 ```python
-pip install python_dotenv`
+pip install python_dotenv  
 ```
 
 ```python
