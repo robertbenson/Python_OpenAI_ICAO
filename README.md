@@ -32,7 +32,7 @@ pip install --upgrade openai
 
 The supplied openai code has been modified to:
 1. use dotenv to hide the api key
-2. modify the content for my use case: `"What ICAO airfields are within 200 km of Dublin airport ?"`
+2. modify the content for my use case: `"What ICAO airfields are within 200 km of Dublin airport, return the longitude and latitude of each ?"`
 
 
 
@@ -49,7 +49,7 @@ completion = client.chat.completions.create(
   # model="gpt-3.5-turbo",
   model="gpt-4o",
   messages=[
-    {"role": "system", "content": "What ICAO airfields are within 200 km of Dublin airport ?"},
+    {"role": "system", "content": "What ICAO airfields are within 200 km of Dublin airport, return the longitude and latitude of each ?"},
   ]
 )
 
@@ -60,6 +60,7 @@ print(completion.choices[0].message.content)
 ### OpenAI Generated Output 
 
 
+```
 To provide a list of ICAO airfields within 200 km of Dublin Airport (EIDW), I would need to utilize specific aviation databases, mapping tools, or official ICAO resources. However, I'll list a few notable ICAO airfields and their coordinates that are within or near this range:
 
 1. **EIDW (Dublin Airport)**
@@ -92,3 +93,4 @@ To provide a list of ICAO airfields within 200 km of Dublin Airport (EIDW), I wo
    - Distance to Dublin Airport: approximately 204 km (slightly beyond 200 km but close)
 
 Please note that while Shannon and Cork are slightly beyond the 200 km range, I've included them due to their relative proximity. For a comprehensive and precise list of all ICAO airfields within exactly 200 km, accessing a specialized aviation database or mapping software that can provide specific calculations and additional airfields would be necessary.
+```
