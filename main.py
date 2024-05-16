@@ -10,7 +10,7 @@ completion = client.chat.completions.create(
   # model="gpt-3.5-turbo",
   model="gpt-4o",
   messages=[
-    {"role": "system", "content": "What ICAO airfields are within 200 km of Dublin airport ?"},
+    {"role": "system", "content": "What ICAO airfields are within 200 km of Dublin airport, return the longitude and latitude of each ?"},
   ]
 )
 

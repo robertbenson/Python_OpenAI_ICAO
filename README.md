@@ -1,6 +1,6 @@
 # OpenAI demo using Python
 ## Task: 
-### "Find airport ICAO codes within 200km of Dublin".
+### "What ICAO airfields are within 200 km of Dublin airport, return the longitude and latitude of each ?".
 
 This can be tailored to just about anything.
 
@@ -60,15 +60,35 @@ print(completion.choices[0].message.content)
 ### OpenAI Generated Output 
 
 
-Dublin Airport (IATA: DUB, ICAO: EIDW) is located in Ireland, near the city of Dublin. Within a radius of 200 kilometers, there are several other airfields with ICAO codes. Here are some notable ones:
+To provide a list of ICAO airfields within 200 km of Dublin Airport (EIDW), I would need to utilize specific aviation databases, mapping tools, or official ICAO resources. However, I'll list a few notable ICAO airfields and their coordinates that are within or near this range:
 
-1. **Shannon Airport (ICAO: EINN)** - Approximately 190 km southwest of Dublin.
-2. **Cork Airport (ICAO: EICK)** - Approximately 220 km south-southwest of Dublin, slightly outside the 200 km range but often included due to its proximity.
-3. **Knock Ireland West Airport (ICAO: EIKN)** - Approximately 180 km northwest of Dublin.
-4. **Waterford Airport (ICAO: EIWF)** - Approximately 130 km south of Dublin.
-5. **Belfast International Airport (ICAO: EGAA)** - Approximately 140 km north of Dublin, in Northern Ireland.
-6. **Belfast City Airport (George Best Belfast City Airport, ICAO: EGAC)** - Approximately 145 km north of Dublin, also in Northern Ireland.
-7. **Donegal Airport (ICAO: EIDL)** - Approximately 180 km northwest of Dublin.
+1. **EIDW (Dublin Airport)**
+   - **Latitude:** 53.4213° N
+   - **Longitude:** -6.2701° W
 
-These are some of the primary airports with ICAO codes within the specified range of Dublin Airport. There are also several smaller airfields and airstrips, which may not have regular commercial services but serve as important points for general aviation, flight training, and private flights.
-`
+2. **EINN (Shannon Airport)**
+   - **Latitude:** 52.7019° N
+   - **Longitude:** -8.9248° W
+   - Distance to Dublin Airport: approximately 192 km
+
+3. **EICK (Cork Airport)**
+   - **Latitude:** 51.8413° N
+   - **Longitude:** -8.4911° W
+   - Distance to Dublin Airport: approximately 220 km (slightly beyond 200 km but close)
+
+4. **EGAC (George Best Belfast City Airport)**
+   - **Latitude:** 54.6181° N
+   - **Longitude:** -5.8725° W
+   - Distance to Dublin Airport: approximately 140 km
+
+5. **EGAA (Belfast International Airport)**
+   - **Latitude:** 54.6575° N
+   - **Longitude:** -6.2158° W
+   - Distance to Dublin Airport: approximately 160 km
+
+6. **EINN (Shannon Airport)**
+   - **Latitude:** 52.7019° N
+   - **Longitude:** -8.9248° W
+   - Distance to Dublin Airport: approximately 204 km (slightly beyond 200 km but close)
+
+Please note that while Shannon and Cork are slightly beyond the 200 km range, I've included them due to their relative proximity. For a comprehensive and precise list of all ICAO airfields within exactly 200 km, accessing a specialized aviation database or mapping software that can provide specific calculations and additional airfields would be necessary.
