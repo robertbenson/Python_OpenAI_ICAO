@@ -14,18 +14,27 @@ set up an OPENAI API KEY
 
 
 OpenAI has different model offerings and price points. [models and price points](https://platform.openai.com/docs/models)
-### Pip 
+## Install packages
 
 
+Manage environment variables, sensitive information. Hide the api key from public view for security
 ```python
 pip install python_dotenv  
 ```
-
+Install or upgrade the OpenAI Python package
 ```python
 pip install --upgrade openai
 ```
 
-### Python Code
+### Python Code 
+[sample openai code example](https://platform.openai.com/docs/quickstart/step-3-sending-your-first-api-request)
+
+
+The supplied openai code has been modified to:
+1. use dotenv to hide the api key
+2. modify the content for my use case: `"What ICAO airfields are within 200 km of Dublin airport ?"`
+
+
 
 ```python
 from openai import OpenAI
@@ -45,7 +54,6 @@ completion = client.chat.completions.create(
 )
 
 print(completion.choices[0].message.content)
-
 ```
 
 
