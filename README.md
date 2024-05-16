@@ -14,6 +14,7 @@ set up an OPENAI API KEY
 
 
 OpenAI has different model offerings and price points. [models and price points](https://platform.openai.com/docs/models)
+                                                                                 
 ## Install packages
 
 
@@ -57,8 +58,8 @@ print(completion.choices[0].message.content)
 ```
 
 
-### OpenAI Generated Output 
-
+## OpenAI Generated Output 
+### Response from chat request:
 
 ```
 To provide a list of ICAO airfields within 200 km of Dublin Airport (EIDW), I would need to utilize specific aviation databases, mapping tools, or official ICAO resources. However, I'll list a few notable ICAO airfields and their coordinates that are within or near this range:
